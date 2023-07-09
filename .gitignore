@@ -1,0 +1,26 @@
+# Ignore node modules
+node_modules/
+
+# Ignore TypeScript type declaration files
+*.d.ts
+
+# Ignore TypeScript build output
+dist/
+
+# Ignore .env file to prevent sensitive data from being committed
+.env
+
+# Ignore npm debug logs
+npm-debug.log
+
+# Ignore cache files
+.cache/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore package-lock.json to avoid conflicts in versioning
+# (Uncomment this line if you don't want to commit the lockfile)
+# package-lock.json
